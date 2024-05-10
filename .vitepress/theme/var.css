@@ -1,0 +1,110 @@
+:root {
+  --vp-font-family-base: FY; /* normal text font */
+  --vp-font-family-mono: HM; /* code font */
+
+  --vp-code-block-bg: #282c34;
+  
+  --vp-code-copy-code-border-color: transparent;
+  --vp-code-copy-code-bg: transparent;
+  --vp-code-copy-code-hover-bg: #eeeeee10;
+  --vp-code-copy-code-hover-border-color: #eeeeee20;
+  --vp-code-copy-code-active-text:#eeeeee;
+
+  --vp-box-bg: rgb(241 245 249);
+
+  --vp-c-white: #ffffff;
+  --vp-c-white-soft: #f9f9f9;
+  --vp-c-white-mute: #f1f1f1;
+  --vp-c-black: #1a1a1a;
+  --vp-c-black-pure: #000000;
+  --vp-c-black-soft: #242424;
+  --vp-c-black-mute: #2f2f2f;
+  --vp-c-gray: #8e8e8e;
+  --vp-c-gray-light-1: #aeaeae;
+  --vp-c-gray-light-2: #c7c7c7;
+  --vp-c-gray-light-3: #d1d1d1;
+  --vp-c-gray-light-4: #e5e5e5;
+  --vp-c-gray-light-5: #f2f2f2;
+  --vp-c-gray-dark-1: #636363;
+  --vp-c-gray-dark-2: #484848;
+  --vp-c-gray-dark-3: #3a3a3a;
+  --vp-c-gray-dark-4: #282828;
+  --vp-c-gray-dark-5: #202020;
+  --vp-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vp-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vp-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vp-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  --vp-c-text-light-1: var(--vp-c-indigo);
+  --vp-c-text-light-2: rgba(60, 60, 60, 0.7);
+  --vp-c-text-light-3: rgba(60, 60, 60, 0.33);
+  --vp-c-text-light-4: rgba(60, 60, 60, 0.18);
+  --vp-c-text-dark-1: rgba(255, 255, 255, 0.87);
+  --vp-c-text-dark-2: rgba(235, 235, 235, 0.6);
+  --vp-c-text-dark-3: rgba(235, 235, 235, 0.38);
+  --vp-c-text-dark-4: rgba(235, 235, 235, 0.18);
+  --vp-c-indigo: #213547;
+  --vp-c-indigo-soft: #476582;
+  --vp-c-indigo-light: #aac8e4;
+  --vp-c-indigo-lighter: #c9def1;
+  --vp-c-indigo-dark: #1d2f3f;
+  --vp-c-indigo-darker: #14212e;
+  --vp-c-green: #42b883;
+  --vp-c-green-light: #42d392;
+  --vp-c-green-lighter: #35eb9a;
+  --vp-c-green-dark: #33a06f;
+  --vp-c-green-darker: #155f3e;
+  --vp-c-green-dimm-1: rgba(66, 184, 131, 0.5);
+  --vp-c-green-dimm-2: rgba(66, 184, 131, 0.25);
+  --vp-c-green-dimm-3: rgba(66, 184, 131, 0.05);
+  --vp-c-yellow: #ffc517;
+  --vp-c-yellow-light: #fcd253;
+  --vp-c-yellow-lighter: #fcfc7c;
+  --vp-c-yellow-dark: #e0ad15;
+  --vp-c-yellow-darker: #ad850e;
+  --vp-c-yellow-dimm-1: rgba(255, 197, 23, 0.5);
+  --vp-c-yellow-dimm-2: rgba(255, 197, 23, 0.25);
+  --vp-c-yellow-dimm-3: rgba(255, 197, 23, 0.05);
+  --vp-c-red: #ed3c50;
+  --vp-c-red-light: #f54e82;
+  --vp-c-red-lighter: #fd1d7c;
+  --vp-c-red-dark: #cd2d3f;
+  --vp-c-red-darker: #ab2131;
+  --vp-c-red-dimm-1: rgba(237, 60, 80, 0.5);
+  --vp-c-red-dimm-2: rgba(237, 60, 80, 0.25);
+  --vp-c-red-dimm-3: rgba(237, 60, 80, 0.05);
+
+  --vp-custom-block-code-font-size: 13px;
+  --vp-custom-block-info-border: var(--vp-c-divider-light);
+  --vp-custom-block-info-text: var(--vp-c-text-2);
+  --vp-custom-block-info-bg: var(--vp-c-white-soft);
+  --vp-custom-block-info-code-bg: var(--vp-c-gray-light-4);
+  --vp-custom-block-tip-border: var(--vp-c-green-dimm-1);
+  --vp-custom-block-tip-text: var(--vp-c-green-darker);
+  --vp-custom-block-tip-bg: var(--vp-c-green-dimm-3);
+  --vp-custom-block-tip-code-bg: var(--vp-custom-block-tip-bg);
+  --vp-custom-block-warning-border: var(--vp-c-yellow-dimm-1);
+  --vp-custom-block-warning-text: var(--vp-c-yellow-darker);
+  --vp-custom-block-warning-bg: var(--vp-c-yellow-dimm-3);
+  --vp-custom-block-warning-code-bg: var(--vp-custom-block-warning-bg);
+  --vp-custom-block-danger-border: var(--vp-c-red-dimm-1);
+  --vp-custom-block-danger-text: var(--vp-c-red-darker);
+  --vp-custom-block-danger-bg: var(--vp-c-red-dimm-3);
+  --vp-custom-block-danger-code-bg: var(--vp-custom-block-danger-bg);
+  --vp-custom-block-details-border: var(--vp-custom-block-info-border);
+  --vp-custom-block-details-text: var(--vp-custom-block-info-text);
+  --vp-custom-block-details-bg: var(--vp-custom-block-info-bg);
+  --vp-custom-block-details-code-bg: var(--vp-custom-block-details-bg);
+
+  /* --vp-code-copy-code-hover-bg: var(rgba(100, 100, 100, 0.5)); */
+}
+
+.dark {
+  --vp-box-bg: rgba(131, 131, 131, 0.1);
+  --vp-code-block-bg: #282c34;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}

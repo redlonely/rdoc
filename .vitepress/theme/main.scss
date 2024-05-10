@@ -1,0 +1,72 @@
+.header-anchor {
+  display: none;
+}
+
+.outline-link {
+  z-index: 999;
+  transition: all 200ms ease-in-out !important;
+}
+
+.outline-link:hover {
+  transform: scale(1.05);
+  color: rgb(0, 78, 196) !important;
+  transition: all 200ms ease-in-out;
+}
+
+.outline-link.active {
+  color: rgb(0, 78, 196) !important;
+}
+
+.vp-doc {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: FY;
+  }
+  font-family: HM;
+}
+
+.vp-doc li + li {
+  // margin-top: 1.5rem;
+}
+
+.vp-page-info {
+  @apply my-10 bg-slate-50 p-5;
+  @apply grid grid-cols-2 gap-2;
+  @apply rounded-lg border;
+  @apply rounded-b-lg border-b-2 border-b-black border-opacity-10;
+  .info {
+    @apply flex-grow;
+    font-family: zql;
+    @apply flex items-center justify-start gap-1;
+    @apply text-sm font-bold text-neutral-700;
+  }
+}
+
+.vp-doc {
+  h2 {
+    @apply relative flex items-center gap-[15px] py-[2rem];
+    @apply hover:cursor-pointer;
+    &:hover {
+      &::before {
+        opacity: 1;
+      }
+    }
+    &::before {
+      content: '';
+      margin-left: -1rem;
+      height: 50%;
+      width: 6px;
+      background-color: #333;
+      transform: translate(-100%, -50%);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      opacity: 0;
+      transition: 300ms ease-in-out;
+    }
+  }
+}

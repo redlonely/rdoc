@@ -1,0 +1,52 @@
+{
+  "name": "rdoc",
+  "version": "0.1.0",
+  "author": "redlonely",
+  "description": "一个前端学习交流文档",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "types": "types/index.d.ts",
+  "keywords": [
+    "vite",
+    "vue",
+    "vitepress"
+  ],
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "pretter": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.1",
+    "@commitlint/config-conventional": "^17.8.1",
+    "@tailwindcss/typography": "^0.5.13",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.12.11",
+    "autoprefixer": "^10.4.19",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-git": "^1.9.1",
+    "dayjs": "^1.11.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "react-type-animation": "^3.2.0",
+    "sass": "^1.77.0",
+    "tailwindcss": "^3.4.3",
+    "unplugin-vue-components": "^0.26.0",
+    "vitepress": "^1.1.4",
+    "vitepress-plugin-nprogress": "^0.0.4",
+    "vue": "^3.4.27"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "dependencies": {
+    "vitepress-plugin-back-to-top": "^1.0.1"
+  }
+}

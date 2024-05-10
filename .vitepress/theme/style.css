@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: FY;
+  src: url('https://blog-1301592621.cos.ap-shanghai.myqcloud.com/fonts/AlimamaFangYuanTiVF-Thin.woff2');
+}
+
+@font-face {
+  font-family: HM;
+  src: url('https://cdn.redlonely.com/fonts/HarmonyOS_Sans_Medium.ttf');
+}
+
+@font-face {
+  font-family: MiSans;
+  src: url('https://cdn.redlonely.com/fonts/MiSans-Normal.ttf');
+}
+
+@font-face {
+  font-family: zql;
+  src: url('https://cdn.redlonely.com/fonts/zql.woff') format('truetype');
+}
+
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  scroll-behavior: smooth;
+}
